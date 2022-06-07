@@ -1,6 +1,38 @@
+#header 
+{
+color: black;
+display: contents;
+}
+#form,
+#email,
+#submit
+{
+    background-color: hsl(158, 92%, 49%);
+    color: black;
+}
+.body
+{
+    background-color: cornsilk;
+    
+}
+p {
+    font-size: 20px;
+  }
+  @media (max-height: 800px) {
+    p{
+      font-size:  15px;
+    }
+  }
 #nav-bar 
 {
     position: fixed;
     top: 0;
 
+}
+
+#footer 
+{
+      display: flex;
+       flex-flow: wrap;
+         
 }
