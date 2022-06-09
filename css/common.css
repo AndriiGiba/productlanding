@@ -2,6 +2,8 @@
 
 :root {
     font-family: 'Jura', sans-serif;
+    --background-color: rgb(229, 237, 242);
+    --text-color: #1f4758;
   }
   * {
     margin: 0;
