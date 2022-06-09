@@ -10,8 +10,7 @@
   p {
     font-size: 20px;
   }
-  @media (max-height: 800px) {
-    p{
-      font-size:  15px;
-    }
+  .container {
+    max-width: 980px;
+    margin: auto;
   }
