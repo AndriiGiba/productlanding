@@ -1,0 +1,18 @@
+#header 
+{
+margin: 10px;
+padding: 10px;
+color: black;
+
+min-height: 20vh;
+background-image: url("../img/hand-painted-watercolor-background.webp");
+background-attachment: fixed;
+}
+#nav-bar 
+{   
+  color: black;
+  margin-left: 200px ;
+  padding: 10px ; 
+    position: fixed;
+    top: 0;
+}

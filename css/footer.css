@@ -1,0 +1,12 @@
+#footer 
+{
+      display: flex;
+      flex-flow: wrap;         
+}
+#form,
+#email,
+#submit
+{
+    background-color: hsla(0, 27%, 96%, 0.018);
+    color: black;
+}
