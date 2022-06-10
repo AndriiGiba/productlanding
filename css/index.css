@@ -2,3 +2,14 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+@media (min-width: 500px) {
+    #nav-bar > .container {
+    display: flex;
+    }
+    .header-nav__menu {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      flex: 1;
+  }
+}

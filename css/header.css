@@ -16,7 +16,8 @@
 #nav-bar {
   background-color: var(--background-color);
   position: fixed;
-  top: 0;
+  top: 0; 
+  width: 100%;
   
 }
 .header-nav__menu {
@@ -25,17 +26,7 @@
   padding: 5px;
   
 }
-@media (min-width: 500px) {
-  #nav-bar > .container {
-  display: flex;
-  }
-  .header-nav__menu {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex: 1;
-}
-}
+
 
 .header-nav__menu  a {
   text-decoration: none;
