@@ -1,8 +1,8 @@
 
-#form,
-#email,
-#submit
-{
-    background-color: hsla(0, 27%, 96%, 0.018);
-    color: black;
+#footer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
 }

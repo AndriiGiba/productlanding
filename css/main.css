@@ -1,0 +1,36 @@
+
+
+.form__sub {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+.main {
+       
+        background-image: url(../img/hand-painted-watercolor-background.webp);
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #form input {
+        text-decoration: none;
+        color: var(--text-color);
+      }
+     .submission {
+         height: 35px;
+         width: 200px;
+     }
+     h2 {
+        margin: 10px;
+        padding: 5px;
+        color: darkblue;
+        text-align: justify;
+     }
+     #video {
+       margin-left: 10px;
+        padding: 50px;
+        
+     }
