@@ -2,11 +2,16 @@
   background-image: url(../img/hand-painted-watercolor-background.webp);
   background-size: cover;
   background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 .header-nav__logo {
   font-size: 3.5rem;
   text-transform: uppercase;
   text-align: center;
+  
 }
 #nav-bar {
   background-color: var(--background-color);
@@ -36,3 +41,4 @@
 .header-nav__menu a:hover {
   text-decoration: underline;
 }
+
